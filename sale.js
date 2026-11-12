@@ -65,4 +65,4 @@ function totalRevenue(orderList) {
   return orderList.reduce((total, order) => total + orderTotal(order));
 }
 
-console.log("Total Revenue", totalRevenue(order));
+console.log("Total Revenue:", totalRevenue(order));
